@@ -1,0 +1,850 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Smart Phone, Na Vertical */
+
+@media screen and (min-width: 360px) {
+
+    body {
+        background-color: #f1f1f1;
+    }
+
+    #photo {
+        width: 100%;
+    }
+
+    #container {
+        margin-top: -4px;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px;
+        margin-top: 0px;
+        font-family: 'Ubuntu', sans-serif;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+        color: white;
+        background-color: brown;
+        opacity: 0.8;
+    }
+
+    #nav {
+        padding: 15px;
+        background-color: darkcyan;
+    }
+
+    a {
+        padding: 0px;
+        margin-left: 38px;
+        color: white;
+        /* text-align: center; */
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+    }
+
+    #conteudo {
+        display: flex;
+        /* border: 1px solid black; */
+    }
+
+    h2 {
+        padding: 5px;
+        text-align: center;
+        text-decoration: underline  brown;
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 18px;
+    }
+
+    #cx1 {
+        width: 50%;
+        padding: 5px;
+        border-right: groove;
+        text-align: center;
+        /* border: 1px solid red; */
+    }
+
+    .atvd {
+        margin-top: 10px;
+    }
+
+    .atividades {
+        font-size: 16px;
+    }
+
+    #cx2 {
+        width: 50%;
+        padding: 5px;
+        margin-left: 0px;
+        text-align: center;
+        /* border: 1px solid purple; */
+    }
+
+    #myself {
+        width: 100%;
+        padding: 20px;
+        font-size: 12px;
+        /* border: 1px solid red; */
+        background-color: floralwhite;
+    }
+
+    h4 {
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: underline  brown;
+    }
+
+    #listas {
+        margin-top: 10px;
+    }
+
+    li {
+        font-family: 'Ubuntu', sans-serif;
+        list-style: none;
+        color: darkcyan;
+    }
+
+    p { 
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;   
+    }
+
+    #cxs {
+        margin-top: 20px;
+        font-size: 58px;
+    }
+
+    #i1 {
+        color: orangered;
+    }
+    #i2 {
+        color: rgb(73, 73, 241);
+    }
+    #i3 {
+        width: 47px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: darkcyan;
+    }
+
+    #linkedin {
+        padding-left: 50px;
+        color: white;
+    }
+
+    #github {
+        padding-left: 64px;
+        color: white;
+    }
+}
+
+/* Smart Phone, Na Horizontal */
+@media screen and (min-width: 640px) {
+    body {
+        background-color: #f1f1f1;
+    }
+
+    #photo {
+        width: 100%;
+    }
+
+    #container {
+        margin-top: -4px;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px;
+        margin-top: 0px;
+        font-family: 'Ubuntu', sans-serif;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+        color: white;
+        background-color: brown;
+        opacity: 0.8;
+    }
+
+    #nav {
+        padding: 15px;
+        background-color: darkcyan;
+    }
+
+    a {
+        padding: 0px;
+        margin-left: 110px;
+        color: white;
+        /* text-align: center; */
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+    }
+
+    #conteudo {
+        display: flex;
+        /* border: 1px solid black; */
+    }
+
+    h2 {
+        padding: 5px;
+        text-align: center;
+        text-decoration: underline  brown;
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 18px;
+    }
+
+    #cx1 {
+        width: 50%;
+        padding: 30px;
+        border-right: groove;
+        text-align: center;
+        font-size: 20px;
+        /* border: 1px solid red; */
+    }
+
+    .atvd {
+        margin-top: 25px;
+    }
+
+    .atividades {
+        margin-top: 15px;
+        font-size: 18px;
+    }
+
+    #cx2 {
+        width: 50%;
+        padding: 30px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 16px;
+        /* border: 1px solid purple; */
+    }
+
+    #myself {
+        width: 100%;
+        padding: 20px;
+        font-size: 12px;
+        /* border: 1px solid red; */
+        background-color: floralwhite;
+    }
+
+    h4 {
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: underline  brown;
+    }
+
+    #listas {
+        margin-top: 10px;
+    }
+
+    li {
+        font-family: 'Ubuntu', sans-serif;
+        list-style: none;
+        color: darkcyan;
+    }
+
+    p { 
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 14px;   
+    }
+
+    #cxs {
+        margin-top: 20px;
+        font-size: 58px;
+    }
+
+    #i1 {
+        color: orangered;
+    }
+    #i2 {
+        color: rgb(73, 73, 241);
+    }
+    #i3 {
+        width: 47px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: darkcyan;
+    }
+
+    #linkedin {
+        padding-left: 130px;
+        color: white;
+    }
+
+    #github {
+        padding-left: 144px;
+        color: white;
+    }
+}
+
+/* Tablets, Vertical */
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #f1f1f1;
+    }
+
+    #photo {
+        width: 100%;
+    }
+
+    #container {
+        margin-top: -4px;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px;
+        margin-top: 0px;
+        font-family: 'Ubuntu', sans-serif;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+        color: white;
+        background-color: brown;
+        opacity: 0.8;
+    }
+
+    #nav {
+        padding: 15px;
+        background-color: darkcyan;
+    }
+
+    a {
+        padding: 0px;
+        margin-left: 150px;
+        color: white;
+        /* text-align: center; */
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+    }
+
+    #conteudo {
+        display: flex;
+        /* border: 1px solid black; */
+    }
+
+    h2 {
+        padding: 5px;
+        text-align: center;
+        text-decoration: underline  brown;
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 18px;
+    }
+
+    #cx1 {
+        width: 50%;
+        padding: 20px;
+        border-right: groove;
+        text-align: center;
+        font-size: 24px;
+        /* border: 1px solid red; */
+    }
+
+    .atvd {
+        margin-top: 20px;
+    }
+
+    .atividades {
+        font-size: 24px;
+    }
+
+    #cx2 {
+        width: 50%;
+        padding: 30px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 16px;
+        /* border: 1px solid purple; */
+    }
+
+    #myself {
+        width: 100%;
+        padding: 20px;
+        font-size: 12px;
+        /* border: 1px solid red; */
+        background-color: floralwhite;
+    }
+
+    h4 {
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: underline  brown;
+    }
+
+    #listas {
+        margin-top: 10px;
+    }
+
+    li {
+        font-family: 'Ubuntu', sans-serif;
+        list-style: none;
+        color: darkcyan;
+    }
+
+    p { 
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;   
+    }
+
+    #cxs {
+        margin-top: 20px;
+        font-size: 58px;
+    }
+
+    #i1 {
+        color: orangered;
+    }
+    #i2 {
+        color: rgb(73, 73, 241);
+    }
+    #i3 {
+        width: 47px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: darkcyan;
+    }
+
+    #linkedin {
+        padding-left: 130px;
+        color: white;
+    }
+
+    #github {
+        padding-left: 144px;
+        color: white;
+    }
+}
+
+/* Tablets, Na Horizontal */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #f1f1f1;
+    }
+
+    #photo {
+        width: 100%;
+    }
+
+    #container {
+        margin-top: -4px;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px;
+        margin-top: 0px;
+        font-family: 'Ubuntu', sans-serif;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        background-color: brown;
+        opacity: 0.8;
+    }
+
+    #nav {
+        padding: 15px;
+        background-color: darkcyan;
+    }
+
+    a {
+        padding: 0px;
+        margin-left: 215px;
+        color: white;
+        /* text-align: center; */
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+    }
+
+    #conteudo {
+        display: flex;
+        /* border: 1px solid black; */
+    }
+
+    h2 {
+        padding: 5px;
+        text-align: center;
+        text-decoration: underline  brown;
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 18px;
+    }
+
+    #cx1 {
+        width: 50%;
+        padding: 20px;
+        border-right: groove;
+        text-align: center;
+        font-size: 24px;
+        /* border: 1px solid red; */
+    }
+
+    .atvd {
+        margin-top: 20px;
+    }
+
+    .atividades {
+        font-size: 24px;
+    }
+
+    #cx2 {
+        width: 50%;
+        padding: 30px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 16px;
+        /* border: 1px solid purple; */
+    }
+
+    #myself {
+        width: 100%;
+        padding: 20px;
+        /* border: 1px solid red; */
+        background-color: floralwhite;
+    }
+
+    .pmy {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: underline  brown;
+    }
+
+    #listas {
+        margin-top: 10px;
+    }
+
+    li {
+        font-family: 'Ubuntu', sans-serif;
+        list-style: none;
+        color: darkcyan;
+    }
+
+    p { 
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;   
+    }
+
+    #cxs {
+        margin-top: 20px;
+        font-size: 58px;
+    }
+
+    #i1 {
+        color: orangered;
+    }
+    #i2 {
+        color: rgb(73, 73, 241);
+    }
+    #i3 {
+        width: 47px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: darkcyan;
+    }
+
+    #linkedin {
+        padding-left: 197px;
+        color: white;
+    }
+
+    #github {
+        padding-left: 210px;
+        color: white;
+    }    
+}
+  
+
+/* DESKTOPS */
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: #f1f1f1;
+    }
+
+    #photo {
+        width: 100%;
+    }
+
+    #container {
+        margin-top: -4px;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px;
+        margin-top: 0px;
+        font-family: 'Ubuntu', sans-serif;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        background-color: brown;
+        opacity: 0.8;
+    }
+
+    #nav {
+        padding: 15px;
+        background-color: darkcyan;
+    }
+
+    a {
+        padding: 0px;
+        margin-left: 215px;
+        color: white;
+        /* text-align: center; */
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+    }
+
+    #conteudo {
+        display: flex;
+        /* border: 1px solid black; */
+    }
+
+    h2 {
+        padding: 5px;
+        text-align: center;
+        text-decoration: underline  brown;
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 18px;
+    }
+
+    #cx1 {
+        width: 50%;
+        padding: 20px;
+        border-right: groove;
+        text-align: center;
+        font-size: 24px;
+        /* border: 1px solid red; */
+    }
+
+    .atvd {
+        margin-top: 20px;
+    }
+
+    .atividades {
+        font-size: 24px;
+    }
+
+    #cx2 {
+        width: 50%;
+        padding: 30px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 16px;
+        /* border: 1px solid purple; */
+    }
+
+    #myself {
+        width: 100%;
+        padding: 20px;
+        /* border: 1px solid red; */
+        background-color: floralwhite;
+    }
+
+    .pmy {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: underline  brown;
+    }
+
+    #listas {
+        margin-top: 10px;
+    }
+
+    li {
+        font-family: 'Ubuntu', sans-serif;
+        list-style: none;
+        color: darkcyan;
+    }
+
+    p { 
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;   
+    }
+
+    #cxs {
+        margin-top: 20px;
+        font-size: 58px;
+    }
+
+    #i1 {
+        color: orangered;
+    }
+    #i2 {
+        color: rgb(73, 73, 241);
+    }
+    #i3 {
+        width: 47px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: darkcyan;
+    }
+
+    #linkedin {
+        padding-left: 197px;
+        color: white;
+    }
+
+    #github {
+        padding-left: 210px;
+        color: white;
+    }        
+}
+
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: #f1f1f1;
+    }
+
+    #photo {
+        width: 100%;
+    }
+
+    #container {
+        margin-top: -4px;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px;
+        margin-top: 0px;
+        font-family: 'Ubuntu', sans-serif;
+        text-shadow: 5px 5px 5px black;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        background-color: brown;
+        opacity: 0.8;
+    }
+
+    #nav {
+        padding: 15px;
+        background-color: darkcyan;
+    }
+
+    a {
+        padding: 0px;
+        margin-left: 242px;
+        color: white;
+        /* text-align: center; */
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 25px;
+        text-decoration: none;
+    }
+
+    #conteudo {
+        display: flex;
+        /* border: 1px solid black; */
+    }
+
+    h2 {
+        padding: 5px;
+        text-align: center;
+        text-decoration: underline  brown;
+        font-family: 'Ubuntu', sans-serif; 
+        font-size: 20px;
+    }
+
+    #cx1 {
+        width: 50%;
+        padding: 20px;
+        border-right: groove;
+        text-align: center;
+        font-size: 26px;
+        /* border: 1px solid red; */
+    }
+
+    .atvd {
+        margin-top: 30px;
+    }
+
+    .atividades {
+        margin-top: 30px;
+        font-size: 26px;
+    }
+
+    #cx2 {
+        width: 50%;
+        padding: 30px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 16px;
+        /* border: 1px solid purple; */
+    }
+
+    #myself {
+        width: 100%;
+        padding: 20px;
+        /* border: 1px solid red; */
+        background-color: floralwhite;
+    }
+
+    .pmy {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: underline  brown;
+    }
+
+    #listas {
+        margin-top: 10px;
+    }
+
+    li {
+        font-family: 'Ubuntu', sans-serif;
+        list-style: none;
+        color: darkcyan;
+    }
+
+    p { 
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 18px;   
+    }
+
+    #cxs {
+        margin-top: 20px;
+        font-size: 58px;
+    }
+
+    #i1 {
+        color: orangered;
+    }
+    #i2 {
+        color: rgb(73, 73, 241);
+    }
+    #i3 {
+        width: 47px;
+    }
+
+    footer {
+        width: 100%;
+        background-color: darkcyan;
+    }
+
+    #linkedin {
+        padding-left: 197px;
+        color: white;
+    }
+
+    #github {
+        padding-left: 210px;
+        color: white;
+    }       
+}
+

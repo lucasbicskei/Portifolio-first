@@ -1,0 +1,16 @@
+	
+
+	Perfil Profissional / Conteúdo Programático
+
+
+	CSS
+
+	Estilização com CSS
+	Seletores CSS - Id, class, universal, pseudo-classes, etc
+	Box-Model, Box-Sizing, Criação de layouts com float hacks para resolver seus problemas com elementos flutuantes
+	Técnicas de posicionamento dos elementos por camadas com z-index e position
+	Background, bordas e sombras
+	Fontes, cores, opacidade e gradientes
+	Utilização de Ícones (Font Awesome) e Google Fontes
+	Técnicas de desenvolvimento responsivo com viewport, e media queries
+	Flexbox aplicação de técnicas e desenvolvimento de layout para aplicação dos conceitos abordados

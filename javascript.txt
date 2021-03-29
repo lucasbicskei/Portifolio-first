@@ -1,0 +1,39 @@
+
+
+	Perfil Profissional / Conteúdo Programático
+
+	JAVASCRIPT
+
+	Introdução à Linguagem JavaScript
+	Tipos de dados na linguagem JavaScript-string, number, boolean, object, infinity,array
+	Operadores da linguagem JavaScript
+	Comentários na linguagem JavaScript
+	Estruturas if, else, if else if else
+	Debug da linguagem no Developer Tools do Chrome;
+	Laços while e for com break e continue
+	Function
+	Array
+	Object
+
+	JAVASCRIPT CORE
+
+	Manipulação de dados utilizando as apis do core JavaScript: Array, Boolean, String, Date, JSON, Math, Number
+	DOM-DOCUMENT OBJECT MODEL
+	Introdução ao DOM
+	Manipulação dinâmica de HTML utilizando DOM Document
+	Manipulção de Eventos da página com DOM Event
+	Manipulação de CSS com DOM Style
+	Promessas em JavaScript
+	Requisições assíncronas com Fetch Api (AJAX)
+
+	ECMASCRIPT-JAVASCRIPT MODERNO
+
+	Classes 
+	Const e let
+	Operações em arrays
+	Arrow Functions
+	Template Literals
+	Transpilações de código com Babel
+	Configuração de servidor hot com Webpack
+
+	
